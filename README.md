@@ -7,4 +7,4 @@ _amazon-esque node app with mysql db_
 - prints quantity left in store and item bought else prints error and message
 
 
-![CLI](test_img/test1.png)
+![CLI](https://github.com/wikipockets/bamazon-node-mysql/blob/debug/test_Img/test1.PNG)
