@@ -1,22 +1,28 @@
 {
-  "name": "bamurmom",
-  "version": "1.0.0",
-  "description": "amazon node program UNC",
-  "main": "bamazonCustomer.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wikipockets/bamazon-node-mysql.git"
-  },
-  "keywords": [
-    "node"
-  ],
-  "author": "wikipockets",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wikipockets/bamazon-node-mysql/issues"
-  },
-  "homepage": "https://github.com/wikipockets/bamazon-node-mysql#readme"
+    "name": "bamurmom",
+    "version": "2.0.0",
+    "description": "amazon node program UNC",
+    "main": "bamazonCustomer.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon bamazonCustomer.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wikipockets/bamazon-node-mysql.git"
+    },
+    "keywords": [
+        "node"
+    ],
+    "author": "wikipockets",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/wikipockets/bamazon-node-mysql/issues"
+    },
+    "homepage": "https://github.com/wikipockets/bamazon-node-mysql#readme",
+    "dependencies": {
+        "inquirer": "^6.3.1",
+        "mysql": "^2.17.1",
+        "nodemon": "^1.19.1"
+    }
 }
